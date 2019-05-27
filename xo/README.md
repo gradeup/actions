@@ -1,13 +1,20 @@
-# lerna
+# xo
 
 ## Usage
 
-Executes lerna command listed in the Action's `args` via `lerna`.
+Executes xo i
 
 ```
-action "Lerna" {
-  uses = "gradeup/actions/lerna@master"
-  args = ["bootstrap"]
+action "XO" {
+  uses = "gradeup/actions/xo@master"
+  args = ["*.js"]
+}
+```
+
+```
+action "XO Fix" {
+  uses = "gradeup/actions/xo@master"
+  args = ["*.js --fix"]
 }
 ```
 
