@@ -2,7 +2,7 @@
 
 ## Usage
 
-Executes xo i
+Executes xo in actions
 
 ```
 action "XO" {
