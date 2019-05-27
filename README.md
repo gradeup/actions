@@ -1,6 +1,6 @@
-# actions
+# actions 🎉
 
-Collection of actions used by Gradeup.
+Collection of github actions used across Gradeup projects.
 
 ## Usage
 
