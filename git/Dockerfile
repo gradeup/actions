@@ -1,4 +1,4 @@
-FROM stable:slim
+FROM debian:stable-slim
 
 LABEL "name"="sh"
 LABEL "maintainer"="Gradeup <engg+actions@gradeup.co>"
