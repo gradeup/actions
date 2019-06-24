@@ -9,7 +9,7 @@ LABEL "com.github.actions.description"="Runs a lerna command in an Action"
 LABEL "com.github.actions.icon"="terminal"
 LABEL "com.github.actions.color"="gray-dark"
 
-RUN apt-get -y update && apt-get -y install git python make g++ && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get -y update && apt-get -y install libvips-dev fftw-dev git python make g++ && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN git config --global url."https://github.com/".insteadOf git@github.com:
 RUN git config --global url."https://".insteadOf git://
