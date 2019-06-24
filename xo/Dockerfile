@@ -1,4 +1,4 @@
-FROM node:lts-slim
+FROM node:8-slim
 
 LABEL "name"="sh"
 LABEL "maintainer"="Gradeup <engg+actions@gradeup.co>"
